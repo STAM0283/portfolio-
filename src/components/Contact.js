@@ -32,7 +32,7 @@ const Contact = () => {
             message: message
 
         }
-        axios.post("https://sad-goldberg-ded735.netlify.app", data)
+        axios.post("nodemailer-api-nodejs.netlify.app", data)
             .then(response => {
                 console.log("my data",response.data)
                 setSent(response.data);
