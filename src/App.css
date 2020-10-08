@@ -1,0 +1,545 @@
+.experience1 {
+  opacity: 0.1;
+  
+
+}
+
+.experience1:hover {
+  opacity: 1;
+  cursor: pointer;
+  
+}
+.experience2 {
+  opacity: 0.1;
+}
+
+.experience2:hover {
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.experience3 {
+  opacity: 0.1;
+}
+
+.experience3:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.experience4 {
+  opacity: 0.1;
+}
+
+.experience4:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+* {
+  margin: auto;
+}
+
+.msg {
+  display: none;
+}
+
+.msgAppear {
+  display: block;
+}
+
+.App {
+  text-align: center;
+}
+
+.formation p, .experience P {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+h2 {
+  background-color: teal;
+}
+
+h1, h3 {
+  color: whitesmoke;
+}
+.main {
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.profile {
+  display: flex;
+}
+
+.header {
+  background-color: black;
+}
+
+.accueil {
+  width: 90%;
+}
+
+.accueil h1 {
+  text-align: center;
+}
+
+.accueil p {
+  font-size: x-large;
+  color: white;
+  width: 90%;
+  line-height: 45px;
+}
+
+.pdf {
+  width: 320px;
+  border-radius: 5px;
+  height: 60px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+}
+
+.footer {
+  background-color: black;
+}
+
+.modalFooter {
+  margin-left: 38%;
+}
+
+.navBar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navBar button {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 210px;
+  margin-top: 15px;
+  font-size: x-large;
+  font-weight: "bold",
+}
+
+.competences img {
+  width: 5%;
+}
+
+.formContact {
+  width: 30%;
+  margin-top: 100px;
+  height: 60%;
+  color: wheat;
+  font-size: x-large;
+}
+
+.formContact button {
+  background-color: teal;
+  width: 150px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.formContact input {
+  margin-bottom: 20px;
+}
+
+.contener {
+  height: 780px;
+}
+
+.contener h3 {
+  margin-top: 40px;
+}
+
+.name {
+  margin-left: 70px;
+}
+
+.prenom {
+  margin-left: 40px;
+}
+
+.email {
+  margin-left: 50px;
+}
+
+a.current button {
+  color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modalFooter button {
+  width: 320px;
+  border-radius: 5px;
+  height: 60px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: black;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+}
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.experience div {
+  width: 870px;
+  height: 320px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+
+.formation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formation div {
+  width: 870px;
+  height: 320px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+
+.competences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.competences img, h3 {
+  margin-left: 10px;
+}
+
+.languages {
+  width: 870px;
+  margin: 20px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+}
+
+.otherCompetences div {
+  width: 870px;
+  margin: 5px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff;
+  inset: 0px 0px 60px #00ffff;
+  flex-wrap: wrap;
+  height: 280px;
+}
+
+.profile_paragraphe {
+  width: 870px;
+  height: 320px;
+}
+
+.profile-picture2 {
+  display: none;
+}
+.profile-picture{
+  transform: scale(1.3); 
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  progress {
+    margin-left: 3%;
+  }
+  .profile-picture {
+    width: 400px;
+  }
+  .profile-picture2 {
+    display: none;
+    width: 230px;
+  }
+  .accueil {
+    display: block;
+    height: 1105px;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 600px;
+  }
+  .profile_paragraphe p {
+    width: 900px;
+    height: 550px;
+    line-height: 60px;
+    margin-top: 20px;
+    font-size: xx-large;
+  }
+  .experience {
+    margin-left: 60px;
+  }
+  .formation {
+    margin-left: 60px;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 230px;
+  }
+  .profile_paragraphe {
+    margin-left: 30px;
+    width: 1900px;
+    margin-top: 30px;
+  }
+  .profile_pro h1 {
+    margin-left: px;
+  }
+  h3 {
+    font-size: medium;
+  }
+  h2 {
+    font-size: medium;
+  }
+  h1 {
+    font-size: medium;
+    margin-left: 5px;
+  }
+  .experience p {
+    font-size: medium;
+  }
+  .formation p {
+    font-size: medium;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 20px;
+  }
+  .accueil h1 {
+    text-align: left;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .navBar {
+    margin-left: -35px;
+  }
+  .modalFooter img {
+    display: none;
+  }
+  .modalFooter h1 {
+    font-size: large;
+    margin-left: 10px;
+  }
+  .modalFooter button {
+    height: 40px;
+    font-size: medium;
+    width: 180px;
+  }
+  .modalFooter {
+    margin-left: 10%;
+  }
+  .formContact {
+    width: 60%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: small;
+    border: 2px solid red;
+  }
+  .formContact button {
+    background-color: teal;
+    width: 80px;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .formContact input {
+    margin-bottom: 20px;
+  }
+  .contener {
+    height: 780px;
+  }
+  .contener h3 {
+    margin-top: 30px;
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .prenom {
+    margin-left: 10px;
+  }
+  .email {
+    margin-left: 10px;
+  }
+  textarea {
+    width: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  progress {
+    margin-left: 3%;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 230px;
+  }
+  .profile_paragraphe {
+    margin-left: 30px;
+    width: 1900px;
+  }
+  .profile_pro h1 {
+    margin-left: 25px;
+  }
+  h2 {
+    font-size: medium;
+  }
+  h1 {
+    font-size: medium;
+    margin-left: 5px;
+  }
+  .experience p {
+    font-size: medium;
+  }
+  .formation p {
+    font-size: medium;
+  }
+  .otherCompetences div {
+    width: 300px;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 20px;
+  }
+  .accueil h1 {
+    text-align: left;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .navBar {
+    margin-left: -30px;
+    padding-left: 0%;
+  }
+  .modalFooter img {
+    display: none;
+  }
+  .modalFooter h1 {
+    font-size: large;
+    margin-left: 10px;
+  }
+  .modalFooter button {
+    height: 40px;
+    font-size: medium;
+    width: 180px;
+  }
+  .modalFooter {
+    margin-left: 10%;
+  }
+  .formContact {
+    width: 60%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: small;
+    border: 2px solid red;
+  }
+  .formContact button {
+    background-color: teal;
+    width: 80px;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .formContact input {
+    margin-bottom: 20px;
+    width: 180px;
+  }
+  .contener {
+    height: 780px;
+  }
+  .contener h3 {
+    margin-top: 30px;
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .prenom {
+    margin-left: 10px;
+  }
+  .email {
+    margin-left: 10px;
+  }
+  textarea {
+    width: 180px;
+  }
+}
