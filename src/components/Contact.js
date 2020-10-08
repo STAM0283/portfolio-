@@ -25,7 +25,7 @@ const Contact = () => {
     e.preventDefault();
 
     axios
-      .post("https://alysonb-contact.herokuapp.com/send-email", { ...state })
+      .post("https://nodemailer-api-nodejs.herokuapp.com/", { ...state })
       .then((response) => {
         setResult(response.data);
         setState({
