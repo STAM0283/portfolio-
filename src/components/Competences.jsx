@@ -18,20 +18,20 @@ const Competences = () => {
         <div className="competences">
             <div style={{ height: "70%", textAlign: "start" }} className = "languages">
                 <h2>LANGUAGES ET PLATEFORMES</h2>
-                <h3>HTML5<label for="file"></label>
+                <h3>HTML5<label htmlFor="file"></label>
                 <img src = {html5} alt="icone html5" /></h3>
-                <h3>CSS3<label for="file"></label>
+                <h3>CSS3<label htmlFor="file"></label>
                 <img src = {css3} alt="icone css3" /></h3>
-                <h3>JAVASCRIPT <label for="file"></label>
+                <h3>JAVASCRIPT <label htmlFor="file"></label>
                 <img src = {javascript} alt="icone javascript" /></h3>
-                <h3>NODE JS <label for="file"></label>
+                <h3>NODE JS <label htmlFor="file"></label>
                 <img  style={{width: "10%"}} src = {node_js} alt="icone node js" /></h3>
-                <h3>MYSQL <label for="file"></label>
+                <h3>MYSQL <label htmlFor="file"></label>
                     <img src={mysql} alt="icone mysql" /></h3>
                 <h2>FRAMEWORK ET BIBLIOTHÈQUE</h2>
-                <h3>BOOTSTRAP <label for="file"></label>
+                <h3>BOOTSTRAP <label htmlFor="file"></label>
                 <img src={bootstrap} alt="icone bootstrap"/></h3>
-                <h3>REACT JS <label for="file"></label>
+                <h3>REACT JS <label htmlFor="file"></label>
                 <img src={react} alt="icone react js"/></h3>
                 <h3 style={{color:"#006400"}}>EXPRESS JS <label for="file"></label></h3>
                 <h3 style={{color:"#8A2BE2"}}>GATSBY JS <label for="file"></label></h3>
@@ -41,11 +41,11 @@ const Competences = () => {
             <section className = "otherCompetences">
                 <div style={{ textAlign: "start" , height: "255px"}}>
                     <h2>AUTRES COMPETENCES</h2>
-                    <h3><img src={check} style={{ width: "3%" }} /> GIT</h3>
-                    <h3><img src={check} style={{ width: "3%" }} /> GITHUB</h3>
-                    <h3><img src={check} style={{ width: "3%" }} /> SCRUM</h3>
-                    <h3><img src={check} style={{ width: "3%" }} /> VSCODE</h3>
-                    <h3><img src={check} style={{ width: "3%" }} /> POSTMAN</h3>
+                    <h3><img src={check} style={{ width: "3%" }} alt=""/> GIT</h3>
+                    <h3><img src={check} style={{ width: "3%" }} alt=""/> GITHUB</h3>
+                    <h3><img src={check} style={{ width: "3%" }} alt=""/> SCRUM</h3>
+                    <h3><img src={check} style={{ width: "3%" }} alt=""/> VSCODE</h3>
+                    <h3><img src={check} style={{ width: "3%" }} alt=""/> POSTMAN</h3>
 
 
                 </div>
@@ -61,11 +61,11 @@ const Competences = () => {
                 </div>
                 <div style={{ textAlign: "start" }}>
                     <h2>INTERETS</h2>
-                    <h3><img src={coding} />DEVELOPEMENT WEB</h3>
-                    <h3><img src={innovation}/>INNOVATION</h3>
-                    <h3><img src={sport}/>BASKETBALL</h3>
-                    <h3><img src={game}/>JEUX VIDEOS</h3>
-                    <h3><img src={travel}/>VOYAGER</h3>
+                    <h3><img src={coding} alt="" />DEVELOPEMENT WEB</h3>
+                    <h3><img src={innovation} alt=""/>INNOVATION</h3>
+                    <h3><img src={sport} alt=""/>BASKETBALL</h3>
+                    <h3><img src={game} alt=""/>JEUX VIDEOS</h3>
+                    <h3><img src={travel} alt=""/>VOYAGER</h3>
                 </div>
             </section>
 

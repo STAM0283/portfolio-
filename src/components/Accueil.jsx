@@ -9,7 +9,7 @@ const Accueil = () => {
 
                 <h1 style={{ color: "coral", fontSize: "xx-large", transition: "all 1s ease-out" }}>AMINE STAMBOULI</h1>
                 <h1 className="poste" style={{transition: "all 3s ease-out"}}>Develloppeur web React JS/ Node JS</h1>
-                 <img className = "profile-picture2" src = {photo_amine2}/>
+                 <img className = "profile-picture2" src = {photo_amine2} alt="profile_picture"/>
                 <div className="profile">
                     <div className = "profile_paragraphe">
                         <p>
@@ -28,7 +28,7 @@ const Accueil = () => {
                             className = "profile-picture"
                             style={{ marginBottom: "15%", width: "85%", transition: "all 3s ease-out"}}
                             src={photo_amine}
-                            alt="photo de profile"
+                            alt="profile"
                         />
                        
                     </div>

@@ -33,7 +33,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img alt="myLinkedin" src={linkedin} style={{ width: "5%" }} />
+            <img src={linkedin} style={{ width: "5%" }} alt="myLinkedin" />
             <button>My Linkedin</button>
           </a>
           <br />
@@ -42,23 +42,23 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img alt="My GitHub" src={github} style={{ width: "5%" }} />
+            <img src={github} style={{ width: "5%" }} alt="My GitHub" />
             <button>My GitHub</button>
           </a>
           <br />
 
-          <img alt="My E-mail" src={email} style={{ width: "5%" }} />
+          <img src={email} style={{ width: "5%" }} alt="My E-mail" />
           <button style={{ height: "80px" }}>
             aminestambouli00780
             <br />
             @gmail.com
           </button>
           <br />
-          <img alt="My Phone" src={phone} style={{ width: "5%" }} />
+          <img src={phone} style={{ width: "5%" }} alt="My Phone" />
           <button>06 99 06 93 90</button>
           <br />
-          <img src={pdf} style={{ width: "5%" }} />
-          <a href={AMINE_STAMBOULI_CV} target="_blank">
+          <img src={pdf} style={{ width: "5%" }} alt="myProfile" />
+          <a href={AMINE_STAMBOULI_CV} target="_blank" rel="noopener noreferrer">
             <button className="pdf">
 
               Télécharger le CV
