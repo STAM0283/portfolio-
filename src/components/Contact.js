@@ -5,9 +5,9 @@ import axios from "axios";
 
 const Contact = () => {
   const [state, setState] = useState({
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
-    subject: "",
     message: "",
   });
 
@@ -30,9 +30,9 @@ const Contact = () => {
       .then((response) => {
         setResult(response.data);
         setState({
-          name: "",
+          firstName: "",
+          lastName: "",
           email: "",
-          subject: "",
           message: "",
         });
         alert("Votre message a été envoyé !");
@@ -60,14 +60,29 @@ const Contact = () => {
         <Form onSubmit={handleSubmit}>
           <Form.Group as={Row} controlId="name">
             <Form.Label column sm="2">
-              Name
+              firstName
             </Form.Label>
             <Col sm="10">
               <Form.Control
                 name="name"
                 type="text"
                 placeholder="Votre prénom"
-                value={state.name}
+                value={state.firstName}
+                onChange={inputChange}
+                required
+              />
+            </Col>
+          </Form.Group>
+          <Form.Group as={Row} controlId="name">
+            <Form.Label column sm="2">
+              lastName
+            </Form.Label>
+            <Col sm="10">
+              <Form.Control
+                name="name"
+                type="text"
+                placeholder="Votre prénom"
+                value={state.lastName}
                 onChange={inputChange}
                 required
               />
@@ -84,22 +99,6 @@ const Contact = () => {
                 type="email"
                 placeholder="Votre email"
                 value={state.email}
-                onChange={inputChange}
-                required
-              />
-            </Col>
-          </Form.Group>
-
-          <Form.Group as={Row} controlId="subject">
-            <Form.Label column sm="2">
-              Objet
-            </Form.Label>
-            <Col sm="10">
-              <Form.Control
-                name="subject"
-                type="text"
-                placeholder="L'objet de votre message"
-                value={state.subject}
                 onChange={inputChange}
                 required
               />
