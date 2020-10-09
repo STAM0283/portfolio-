@@ -32,7 +32,7 @@ const Contact = () => {
             message: message
 
         }
-        axios.post("https://git.heroku.com/send-mailing-api/contact", {...data})
+        axios.post("https://send-mailing-api.herokuapp.com/contact", {...data})
             .then(response => {
                 console.log("my data",response)
                 setSent(response.data);
