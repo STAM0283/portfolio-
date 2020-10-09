@@ -11,17 +11,17 @@ const Contact = () => {
     const [sent, setSent] = useState("");
 
     const handleFirstName = (e) => {
-        setFirstName(e.target);
+        setFirstName(e.target.value);
     }
 
     const handleLastName = (e) => {
-        setLastName(e.target);
+        setLastName(e.target.value);
     }
     const handleEmail = (e) => {
-        setEmail(e.target);
+        setEmail(e.target.value);
     }
     const handleMessage = (e) => {
-        setMessage(e.target);
+        setMessage(e.target.value);
     }
     const formSubmit = (e) => {
         e.preventDefault();
