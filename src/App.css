@@ -1,40 +1,48 @@
 .experience1 {
-  opacity: 0.1;
-  
-
+  transition: 350ms display-none-transition;
 }
 
-.experience1:hover {
-  opacity: 1;
-  cursor: pointer;
-  
+
+@keyframes display-none-transition {
+  0% {
+      display: none;
+  }
+  100% {
+      display: block;
+  }
 }
 .experience2 {
-  opacity: 0.1;
+  animation: fadein2 50s;
 }
-
-.experience2:hover {
-  opacity: 1;
-  cursor: pointer;
-
+@keyframes fadein2 { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
-
 .experience3 {
-  opacity: 0.1;
+  animation: fadein3 90s;
 }
-
-.experience3:hover {
-  opacity: 1;
-  cursor: pointer;
+@keyframes fadein3 { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
-
 .experience4 {
-  opacity: 0.1;
+  animation: fadein4 130s;
 }
-
-.experience4:hover {
-  opacity: 1;
-  cursor: pointer;
+@keyframes fadein4 { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 
 * {
