@@ -51,7 +51,7 @@ const Contact = () => {
     return (
         <div className="contener">
             <h3>FORMULAIRE DE CONTACT</h3>
-            <form onSubmit={formSubmit} className="formContact">
+            <form onSubmit={formSubmit} className="formContact" method="post">
                 <div>
                     <label htmlFor="name">Nom</label>
                     <input value={firstName} className="name" type="text" name="firsname" placeholder="Votre nom" onChange={handleFirstName} />
