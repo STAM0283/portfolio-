@@ -40,7 +40,7 @@ const Contact = () => {
                 setLastName("");
                 setEmail("");
                 setMessage("");
-                alert("Votre message a été envoyé avec succé !")
+                // alert("Votre message a été envoyé avec succé !")
 
             }).catch(() => {
                 console.log("message not sent")
