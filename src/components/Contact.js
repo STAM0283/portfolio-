@@ -47,7 +47,7 @@ const Contact = () => {
                 console.log("message not sent")
             })
 
-        }, [])
+        }, [firstName, lastName, email, message])
 
     }
 
