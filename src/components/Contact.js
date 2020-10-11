@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 
@@ -32,7 +32,8 @@ const Contact = () => {
             message: message
 
         }
-        axios.post("https://transport-api-nodejs.herokuapp.com/send-email", data)
+        useEffect(()=> {
+            axios.post("https://transport-api-nodejs.herokuapp.com/send-email", data)
             .then(response => {
                 console.log("my data",response)
                 setSent(response.data);
@@ -45,6 +46,8 @@ const Contact = () => {
             }).catch(() => {
                 console.log("message not sent")
             })
+
+        }, [])
 
     }
 
