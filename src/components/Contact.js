@@ -32,9 +32,9 @@ const Contact = () => {
             message: message
 
         }
-            axios.post("https://transport-api-nodejs.herokuapp.com/send-email", data)
+        axios.post("https://transport-api-nodejs.herokuapp.com/send-email", data)
             .then(response => {
-                console.log("my data",response)
+                console.log("my data", response)
                 // setSent(response.data);
                 setFirstName("");
                 setLastName("");
@@ -51,14 +51,14 @@ const Contact = () => {
     return (
         <div className="contener">
             <h3>FORMULAIRE DE CONTACT</h3>
-            <form onSubmit={formSubmit} className="formContact" method="post">
+            <form onSubmit={formSubmit} className="formContact" method="post" action="https://transport-api-nodejs.herokuapp.com/send-email">
                 <div>
                     <label htmlFor="name">Nom</label>
                     <input value={firstName} className="name" type="text" name="firsname" placeholder="Votre nom" onChange={handleFirstName} />
                 </div>
                 <div>
                     <label htmlFor="prenom">Prénom</label>
-                    <input  value={lastName} className="prenom" type="text" name="lastname" placeholder="Votre prenom" onChange={handleLastName} />
+                    <input value={lastName} className="prenom" type="text" name="lastname" placeholder="Votre prenom" onChange={handleLastName} />
                 </div>
                 <div>
                     <label htmlFor="email">E-mail</label>
