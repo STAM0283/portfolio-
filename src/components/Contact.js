@@ -8,7 +8,7 @@ const Contact = () => {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const [sent, setSent] = useState("");
+    // const [sent, setSent] = useState("");
 
     const handleFirstName = (e) => {
         setFirstName(e.target.value);
