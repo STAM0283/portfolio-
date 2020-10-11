@@ -60,7 +60,7 @@ const Contact = () => {
                 <Form onSubmit={handleSubmit}>
                     <Form.Group as={Row} controlId="name">
                         <Form.Label column sm="2">
-                            Name
+                            First-Name
             </Form.Label>
                         <Col sm="10">
                             <Form.Control
@@ -75,7 +75,7 @@ const Contact = () => {
                     </Form.Group>
                     <Form.Group as={Row} controlId="name">
                         <Form.Label column sm="2">
-                            Name
+                            Last-Name
             </Form.Label>
                         <Col sm="10">
                             <Form.Control
@@ -99,22 +99,6 @@ const Contact = () => {
                                 type="email"
                                 placeholder="Votre email"
                                 value={state.email}
-                                onChange={inputChange}
-                                required
-                            />
-                        </Col>
-                    </Form.Group>
-
-                    <Form.Group as={Row} controlId="subject">
-                        <Form.Label column sm="2">
-                            Objet
-            </Form.Label>
-                        <Col sm="10">
-                            <Form.Control
-                                name="subject"
-                                type="text"
-                                placeholder="L'objet de votre message"
-                                value={state.message}
                                 onChange={inputChange}
                                 required
                             />
