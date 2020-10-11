@@ -13,12 +13,8 @@ const Contact = () => {
     const [result, setResult] = useState("");
 
     const inputChange = (e) => {
-        const { name, value } = e.target;
 
-        setState({
-            ...state,
-            [name]: value,
-        });
+        setState(e.target.value);
     };
 
     const handleSubmit = (e) => {
