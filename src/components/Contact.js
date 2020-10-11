@@ -60,7 +60,7 @@ const Contact = () => {
             </Form.Label>
                         <Col sm="10">
                             <Form.Control
-                                name="name"
+                                name="first_name"
                                 type="text"
                                 placeholder="Votre prénom"
                                 value={state.firstName}
@@ -75,7 +75,7 @@ const Contact = () => {
             </Form.Label>
                         <Col sm="10">
                             <Form.Control
-                                name="name"
+                                name="last_name"
                                 type="text"
                                 placeholder="Votre prénom"
                                 value={state.lastName}
