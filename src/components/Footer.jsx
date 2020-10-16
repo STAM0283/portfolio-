@@ -28,13 +28,12 @@ const Footer = () => {
           <h1 style={{ marginTop: "50px", color: "whitesmoke", marginLeft: "30px" }}>
             STAMBOULI AMINE
           </h1>
+          <img src={linkedin} style={{ width: "5%" }} alt="myLinkedin" />
           <a
             href="https://www.linkedin.com/in/stambouli-d%C3%A9veloppeur/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <img src={linkedin} style={{ width: "5%" }} alt="myLinkedin" />
-            <button>My Linkedin</button>
+          >n<button>My Linkedin</button>
           </a>
           <br />
           <a
