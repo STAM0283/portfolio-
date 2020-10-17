@@ -32,7 +32,7 @@ const Contact = () => {
             message: message
 
         }
-        axios.post("https://transport-api-nodejs.herokuapp.com/contact", data)
+        axios.post("http://localhost:5000/contact", data)
             .then(response => {
                 console.log("my data", response)
                 setSent(response.data);
