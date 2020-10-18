@@ -24,7 +24,6 @@ const Footer = () => {
         <div className="modalFooter">
           <img alt="hide_modal" src={hide_modal} style={{ width: "5%" }} />
           <button className="hideModal" onClick={() => setModalIsOpen(false)}>Hide the modal</button>
-
           <h1 style={{ marginTop: "50px", color: "whitesmoke", marginLeft: "30px" }}>
             STAMBOULI AMINE
           </h1>
@@ -33,7 +32,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/stambouli-d%C3%A9veloppeur/"
             target="_blank"
             rel="noopener noreferrer"
-          >n<button>My Linkedin</button>
+          ><button>My Linkedin</button>
           </a>
           <br />
           <a
