@@ -7,8 +7,8 @@ const Accueil = () => {
         <div className="accueil">
             <div className="profile_pro">
 
-                <h1 style={{ color: "coral", fontSize: "xx-large", transition: "all 1s ease-out" }}>AMINE STAMBOULI</h1>
-                <h1 className="poste" style={{transition: "all 3s ease-out"}}>Develloppeur web React JS/ Node JS</h1>
+                <h1 style={{color: "orange"}}>AMINE STAMBOULI</h1>
+                <h1 className="poste">Develloppeur web React JS/ Node JS</h1>
                  <img className = "profile-picture2" src = {photo_amine2} alt="profile_picture"/>
                 <div className="profile">
                     <div className = "profile_paragraphe">
@@ -23,10 +23,9 @@ const Accueil = () => {
                             Wild Code School de Lyon.
                     </p>
                     </div>
-                    <div style={{ width: "50%", padding: "0%" }}>
+                    <div>
                         <img
                             className = "profile-picture"
-                            style={{ marginBottom: "15%", width: "85%", transition: "all 3s ease-out"}}
                             src={photo_amine}
                             alt="profile"
                         />

@@ -277,7 +277,7 @@ a.current button {
   inset: 0px 0px 60px #00ffff;
   flex-wrap: wrap;
 }
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   progress {
     margin-left: 3%;
   }
@@ -316,43 +316,9 @@ a.current button {
     height: 200px;
     font-size: large;
   }
-  .portfolio img{
-    width: 600px;
-  }
-  .formContact {
-    border: 2px solid pink;
-  }
 }
 
-@media (max-width: 768px){
-  .accueil{
-    width: 90%;
-  }
-  .accueil img{
-    width: 50%;
-  }
-  .accueil p{
-    font-size: medium;
-  }
-  .accueil h1{
-    font-size: large;
-  }
-  .profile_paragraphe{
-   border: 2px solid red;
-   width: 600px;
-  }
-  .experience div h2{
-    font-size: large;
-  }
-  .formation p{
-    font-size: large;
-  }
-  .formation h2{
-    font-size: large;
-  }
-
-}
-@media (max-width: 414px) {
+@media (min-width: 375px) and (max-width: 414px) {
   .profile-picture {
     display: none;
   }
@@ -367,13 +333,6 @@ a.current button {
   }
   .profile_pro h1 {
     margin-left: px;
-  }
-  .accueil p {
-    font-size: medium;
-    line-height: 20px;
-  }
-  .accueil h1 {
-    text-align: left;
   }
   h3 {
     font-size: medium;
@@ -391,11 +350,12 @@ a.current button {
   .formation p {
     font-size: medium;
   }
-  .portfolio img{
-    width: 270px;
+  .accueil p {
+    font-size: medium;
+    line-height: 20px;
   }
-  .formContact label{
-    font-size: xx-large;
+  .accueil h1 {
+    text-align: left;
   }
   .modalFooter button {
     height: 200px;
@@ -422,7 +382,7 @@ a.current button {
   .formContact {
     width: 60%;
     margin-top: 100px;
-    height: 70%;
+    height: 65%;
     color: wheat;
     font-size: small;
     border: 2px solid red;
@@ -456,7 +416,7 @@ a.current button {
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
   progress {
     margin-left: 3%;
   }
@@ -523,7 +483,7 @@ a.current button {
   .formContact {
     width: 60%;
     margin-top: 100px;
-    height: 70%;
+    height: 65%;
     color: wheat;
     font-size: small;
     border: 2px solid red;
