@@ -316,6 +316,9 @@ a.current button {
     height: 200px;
     font-size: large;
   }
+  .portfolio img{
+    width: 600px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 414px) {
@@ -349,6 +352,9 @@ a.current button {
   }
   .formation p {
     font-size: medium;
+  }
+  .portfolio img{
+    width: 270px;
   }
   .accueil p {
     font-size: medium;
