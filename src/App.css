@@ -277,9 +277,110 @@ a.current button {
   inset: 0px 0px 60px #00ffff;
   flex-wrap: wrap;
 }
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .accueil {
+    display: block;
+    height: 1366px;
+  }
+  .accueil img{
+    width: 50%;
+  }
+  .accueil h1 {
+    text-align: center;
+    font-size: medium;
+  }
+  .profile-picture {
+    width: 400px;
+  }
+  .profile-picture2 {
+    display: none;
+    width: 230px;
+  }
+  .profile-picture {
+    display: none;
+  }
+  .profile-picture2 {
+    display: block;
+    width: 600px;
+  }
+  .profile_paragraphe p {
+    width: 900px;
+    height: 700px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: xx-large;
+    margin-left: 25px;
+    line-height: 60px;
+  }
+  .experience {
+    margin-left: 60px;
+  }
+  .experience div{
+    width: 950px;
+    height: 450px;
+    margin-left: -25px;
+
+  }
+  .formation {
+    margin-left: 60px;
+  }
+  .formation div{
+    width: 950px;
+    height: 400px;
+    margin-left: -25px;
+
+  }
+  .languages{
+    margin-left: 80px;
+  }
+  .modalFooter button {
+    height: 200px;
+    font-size: large;
+  }
+  .portfolio img{
+    width: 600px;
+  }
+  .formContact {
+    width: 70%;
+    margin-top: 100px;
+    height: 70%;
+    color: wheat;
+    font-size: medium;
+    border: 4px solid peru;
+    padding-top: 30px;
+  }
+  .contener{
+    height: 1366px;
+  }
+  label{
+    font-size: 70px;
+  }
+  .contener input{
+    width: 500px;
+    height: 50px;
+    font-size: xx-large;
+  }
+  .contener textarea{
+    width: 500px;
+  }
+
+}
 @media (max-width: 768px) {
   progress {
     margin-left: 3%;
+  }
+  .accueil {
+    display: block;
+    height: 1105px;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 30px;
+  }
+  .accueil h1 {
+    text-align: center;
+    font-size: medium;
   }
   .profile-picture {
     width: 400px;
@@ -298,7 +399,7 @@ a.current button {
   .profile_paragraphe p {
     width: 700px;
     height: 550px;
-    line-height: 60px;
+    line-height: 40px;
     margin-top: 20px;
     font-size: xx-large;
   }
@@ -306,33 +407,40 @@ a.current button {
     margin-left: 60px;
   }
   .experience div{
-    width: 600px;
+    width: 700px;
     height: 450px;
+    margin-left: -25px;
+
   }
   .formation {
     margin-left: 60px;
   }
   .formation div{
-    width: 600px;
+    width: 700px;
     height: 400px;
+    margin-left: -25px;
 
   }
   .modalFooter button {
     height: 200px;
     font-size: large;
   }
-  .accueil {
-    display: block;
-    height: 1105px;
+  .portfolio img{
+    width: 600px;
   }
-  .accueil p {
-    font-size: medium;
-    line-height: 40px;
+  .formContact {
+    width: 80%;
+    margin-top: 100px;
+    height: 65%;
+    color: wheat;
+    font-size: large;
+    border: 4px solid peru;
+    padding-top: 30px;
   }
-  .accueil h1 {
-    text-align: center;
-    font-size: medium;
+  .otherCompetences div{
+    width: 650px;
   }
+
 }
 @media (min-width: 375px) and (max-width: 414px) {
   .profile-picture {
@@ -360,11 +468,28 @@ a.current button {
     font-size: medium;
     margin-left: 5px;
   }
+  .experience div{
+    margin-left: -30px;
+  }
+  .formation div{
+    width: 600px;
+    margin-left: -30px;
+  }
   .experience p {
     font-size: medium;
   }
   .formation p {
     font-size: medium;
+  }
+  .profile_paragraphe p {
+    width: 320px;
+    height: 580px;
+    border: 2px solid red;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+
   }
   .accueil p {
     font-size: medium;
@@ -441,7 +566,7 @@ a.current button {
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media  (max-width: 375px) {
   progress {
     margin-left: 3%;
   }
@@ -452,9 +577,18 @@ a.current button {
     display: block;
     width: 230px;
   }
-  .profile_paragraphe {
-    margin-left: 30px;
-    width: 1900px;
+  .profile_paragraphe p {
+    width: 320px;
+    height: 540px;
+    border: 2px solid red;
+    margin-left: -20px;
+  }
+  .accueil p {
+    font-size: medium;
+    line-height: 40px;
+  }
+  .accueil h1 {
+    text-align: left;
   }
   .profile_pro h1 {
     margin-left: 25px;
@@ -469,18 +603,18 @@ a.current button {
   .experience p {
     font-size: medium;
   }
+  .experience div{
+    margin-left: -30px;
+  }
+  .formation div{
+    width: 600px;
+    margin-left: -30px;
+  }
   .formation p {
     font-size: medium;
   }
   .otherCompetences div {
     width: 300px;
-  }
-  .accueil p {
-    font-size: medium;
-    line-height: 20px;
-  }
-  .accueil h1 {
-    text-align: left;
   }
   .modalFooter button {
     height: 200px;
