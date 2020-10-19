@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div>
                 <img src={net_movie} alt="picture_portfolio" />
                 <br />
-                <a href="https://play-list-movies.netlify.app/search" target="_blank" rel="noopener noreferrer">
+                <a href="https://play-list-movies.netlify.app" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="btn btn-primary">Net Movie
                     </button></a>
             </div>
