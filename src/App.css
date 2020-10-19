@@ -702,7 +702,7 @@ a.current button {
   }
 }
 
-.portfolio div:hover{
-  border:  2px solid yellow;
+.portfolio button:hover{
+  background-color: red;
 
 }
