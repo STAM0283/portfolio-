@@ -44,7 +44,7 @@ const Portfolio = () => {
             <div><img src={citations} alt="picture_portfolio" /><br />
                 <a href="https://the-best-quotes.netlify.app" target="_blank" rel="noopener noreferrer" >
                     <button type="button" className="btn btn-primary">Game List
-            </button>
+                    </button>
                 </a>
             </div>
         </div>
