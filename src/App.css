@@ -701,3 +701,8 @@ a.current button {
     margin-left: 7px;
   }
 }
+
+.portfolio div:hover{
+  border:  2px solid yellow;
+
+}
