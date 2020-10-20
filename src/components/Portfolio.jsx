@@ -11,13 +11,14 @@ import citations from "../images/citations.png";
 const Portfolio = () => {
     return (
         <div className="portfolio">
-            <div>
+            <div className="portfolio1">
                 <img src={net_movie} alt="picture_portfolio" />
                 <br />
                 <a href="https://play-list-movies.netlify.app" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="btn btn-primary">Net Movie
                     </button></a>
             </div>
+
             <div><img src={list_game} alt="picture_portfolio" /><br />
                 <a href="https://games-list.netlify.app" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="btn btn-primary">Game List
@@ -32,7 +33,7 @@ const Portfolio = () => {
             <div><img src={big_quiz} alt="picture_portfolio" /><br />
                 <button type="button" className="btn btn-primary">The Big Quiz
             </button></div>
-            <div><img src={right_price} alt="picture_portfolio"/><br />
+            <div><img src={right_price} alt="picture_portfolio" /><br />
                 <a href="https://le-juste-prix-game.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="btn btn-primary">Right Price Game</button>
                 </a>
