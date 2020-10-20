@@ -36,8 +36,10 @@ const Portfolio = () => {
                 <button type="button" className="btn btn-primary">Right Price Game
             </button></div>
             <div><img src={calculator} alt="picture_portfolio" /><br />
-                <button type="button" className="btn btn-primary">Game List
-            </button></div>
+            <a href="https://calculator-math.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn btn-primary">Calculator
+            </button>
+                </a></div>
             <div><img src={site_vitrine} alt="picture_portfolio" /><br />
                 <a href="https://travel-agency69.netlify.app/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-primary">Game List
             </button></a></div>
