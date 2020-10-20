@@ -32,11 +32,11 @@ const Portfolio = () => {
             <div><img src={big_quiz} alt="picture_portfolio" /><br />
                 <button type="button" className="btn btn-primary">The Big Quiz
             </button></div>
-            <div><img src={right_price} alt="picture_portfolio" /><br />
+            <div><img src={right_price} alt="picture_portfolio"/><br />
                 <a href="https://le-juste-prix-game.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <button type="button" className="btn btn-primary">Right Price Game
-            </button>
-            </a></div>
+                    <button type="button" className="btn btn-primary">Right Price Game</button>
+                </a>
+            </div>
             <div><img src={calculator} alt="picture_portfolio" /><br />
                 <a href="https://calculator-math.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="btn btn-primary">Calculator

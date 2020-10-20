@@ -277,6 +277,14 @@ a.current button {
   inset: 0px 0px 60px #00ffff;
   flex-wrap: wrap;
 }
+.portfolio button:hover{
+  background-color: red;
+
+}
+.portfolio img:hover{
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
 
 @media (min-width: 769px) and (max-width: 1024px){
   .accueil {
@@ -700,9 +708,4 @@ a.current button {
   .profile_paragraphe p{
     margin-left: 7px;
   }
-}
-
-.portfolio button:hover{
-  background-color: red;
-
 }
