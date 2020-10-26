@@ -14,7 +14,7 @@ const Formation = () => {
                     </p>
             </div>
             <div>
-                <h2>Formations en ligne : Udemy<br />JavaScript, avec Louis Nicolas Leuillet (2020)</h2>
+                <h2>Formations en ligne : Udemy<br />JavaScript, Node Js/Mysql - Depuis Mars 2020.</h2>
                 <p>Formation complete sur JavaScript: la programmation orientée objet avec les fonctions 
                     constructeurs, avec des classes, avec les objets littéraux, avec les prototypes .etc<br/>
                     La maitrise de Visuel Studio Code, utiliser les API, entre autres </p>
