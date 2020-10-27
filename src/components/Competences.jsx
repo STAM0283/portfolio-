@@ -51,8 +51,7 @@ const Competences = () => {
                 </div>
                 <div style={{ textAlign: "start", height: "180px" }}>
                     <h2>LANGUES</h2>
-                    <h3>FRANÇAIS : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>COURANT</span></h3>                
-                    <h3>ARABE  : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>COURANT</span></h3>                   
+                    <h3>FRANÇAIS : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>COURANT</span></h3>                                  
                     <h3>ANGLAIS : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>INTERMÉDIAIRE</span></h3>
                 </div>
                 <div style={{ textAlign: "start" }}>
