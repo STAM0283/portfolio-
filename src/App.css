@@ -17,7 +17,7 @@
 .formation p, .experience P {
   color: white;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 
 h2 {
@@ -625,7 +625,7 @@ a.current button {
     margin-left: 5px;
   }
   .experience p {
-    font-size: 15px;
+    font-size: medium;
   }
   .experience div{
     margin-left: -30px;
