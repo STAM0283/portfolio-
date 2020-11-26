@@ -47,11 +47,12 @@ const Portfolio = () => {
             </button>
                 </a></div>
             <div><img src={site_vitrine} alt="picture_portfolio" /><br />
-                <a href="https://travel-agency69.netlify.app/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-primary">Game List
+                <a href="https://travel-agency69.netlify.app/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-primary">showcase site
             </button></a></div>
             <div><img src={citations} alt="picture_portfolio" /><br />
                 <a href="https://the-best-quotes.netlify.app" target="_blank" rel="noopener noreferrer" >
-                    <button type="button" className="btn btn-primary">Game List
+                    <button type="button" className="btn btn-primary">
+quote generator
                     </button>
                 </a>
             </div>
