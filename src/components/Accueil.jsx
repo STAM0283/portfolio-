@@ -13,14 +13,12 @@ const Accueil = () => {
                 <div className="profile">
                     <div className="profile_paragraphe">
                         <p>
-                            Après un parcours de 5 ans en tant que cogérant, dont 4 ans dans le
-                            commerce ambulant et 1 an dans la restauration. Mon projet
-                            professionnel est de m'orienter vers un domaine qui me passionne
-                            énormément, qui est le développement web et mobile.Depuis début 2019
-                            j'ai commencé à suivre des cours et à m'auto-former à la profession
-                            grâce à des formations en ligne (Udemy, Openclassrooms .etc)
-                            Actuellement je suis en formation développeur React JS/Node JS, à la
-                            Wild Code School de Lyon.
+                            Fort de ma passion pour le domaine du développement web et un
+                            grand sens de la curiosité, je suis une personne dynamique,
+                            rigoureuse, et très investie dans mon travail.
+                            je souhaite intégrer une entreprise dynamique, dont le vecteur de
+                            réussite et la dimension humaine sont primordiales, mais aussi 
+                            une entreprise qui saura m'accompagner pour atteindre mon vrai potentiel.
                        </p>
                     </div>
                     <div style={{ width: "50%", padding: "0%" }}>
