@@ -54,18 +54,22 @@ const Contact = () => {
             <form onSubmit={formSubmit} className="formContact">
                 <div>
                     <label htmlFor="name">Nom</label>
+                    <br />
                     <input value={firstName} className="name" type="text" name="firsname" placeholder="Votre nom" onChange={handleFirstName} />
                 </div>
                 <div>
                     <label htmlFor="prenom">Prénom</label>
+                    <br />
                     <input value={lastName} className="prenom" type="text" name="lastname" placeholder="Votre prenom" onChange={handleLastName} />
                 </div>
                 <div>
                     <label htmlFor="email">E-mail</label>
+                    <br />
                     <input value={email} className="email" type="email" name="email" placeholder="Vote E-mail" onChange={handleEmail} />
                 </div>
                 <div>
                     <label htmlFor="message">Message</label>
+                    <br />
                     <textarea value={message} cols="40" rows="6" className="message" type="text" name="message" placeholder="Vote message" onChange={handleMessage} />
                 </div>
                 <div className={sent ? "msg msgAppear" : "msg"}>Message has been sent</div>

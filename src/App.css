@@ -22,6 +22,7 @@
 
 h2 {
   background-color: teal;
+  font-size: large;
 }
 
 h1, h3 {
@@ -104,10 +105,11 @@ h1, h3 {
 
 .formContact {
   width: 30%;
-  margin-top: 100px;
-  height: 60%;
+  margin-top: 20px;
   color: wheat;
   font-size: x-large;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .formContact button {
@@ -118,7 +120,7 @@ h1, h3 {
 }
 
 .formContact input {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contener {
@@ -128,19 +130,6 @@ h1, h3 {
 .contener h3 {
   margin-top: 40px;
 }
-
-.name {
-  margin-left: 70px;
-}
-
-.prenom {
-  margin-left: 40px;
-}
-
-.email {
-  margin-left: 50px;
-}
-
 a.current button {
   color: red;
 }
@@ -192,29 +181,36 @@ a.current button {
 
 .experience {
   display: flex;
+  width: 90%;
+  margin-left: 5%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.experience p {
+  font-size: medium;
+}
 .experience div {
-  width: 870px;
-  height: 320px;
+  width: 600px;
+  height: 250px;
   margin: 20px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
   inset: 0px 0px 60px #00ffff;
-  flex-wrap: wrap;
 }
 
 .formation {
   display: flex;
+  width: 90%;
+  margin-left: 5%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.formation p{
+  font-size: medium;
+}
 .formation div {
-  width: 870px;
-  height: 320px;
+  width: 600px;
+  height: 250px;
   margin: 20px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
@@ -224,6 +220,8 @@ a.current button {
 
 .competences {
   display: flex;
+  width: 90%;
+  margin-left: 5%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -231,10 +229,13 @@ a.current button {
 .competences img, h3 {
   margin-left: 10px;
 }
+.competences h3{
+  font-size: medium;
+}
 
 .languages {
-  width: 870px;
-  margin: 20px;
+  width: 400px;
+  margin: 40px;
   border: solid 5px wheat;
   box-shadow: 0px 0px 20px #00ccff;
   inset: 0px 0px 60px #00ffff;
@@ -248,7 +249,6 @@ a.current button {
   box-shadow: 0px 0px 20px #00ccff;
   inset: 0px 0px 60px #00ffff;
   flex-wrap: wrap;
-  height: 280px;
 }
 
 .profile_paragraphe {
@@ -269,7 +269,7 @@ a.current button {
 }
 
 .portfolio img {
-  width: 870px;
+  width: 400px;
   height: 320px;
   margin: 20px;
   border: solid 5px wheat;
@@ -288,7 +288,7 @@ a.current button {
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px){
+@media (max-width: 1024px){
   .accueil {
     display: block;
     height: 1366px;
@@ -439,8 +439,7 @@ a.current button {
 
   }
   .modalFooter button {
-    height: 200px;
-    font-size: large;
+    font-size: medium;
   }
   .portfolio img{
     width: 600px;
@@ -466,7 +465,7 @@ a.current button {
   }
 
 }
-@media (min-width: 375px) and (max-width: 414px) {
+@media (max-width: 414px) {
   .profile-picture {
     display: none;
   }
@@ -479,9 +478,6 @@ a.current button {
     width: 1900px;
     margin-top: 30px;
   }
-  .profile_pro h1 {
-    margin-left: px;
-  }
   h3 {
     font-size: medium;
   }
@@ -490,25 +486,24 @@ a.current button {
   }
   h1 {
     font-size: medium;
-    margin-left: 5px;
+    height: 80%;
+    margin-left: 10%;
   }
   .experience div{
-    margin-left: -30px;
+    width: 90%;
   }
   .formation div{
-    width: 600px;
-    margin-left: -30px;
+    width: 90%;
   }
   .experience p {
-    font-size: medium;
+    font-size: small;
   }
   .formation p {
-    font-size: medium;
+    font-size: small;
   }
   .profile_paragraphe p {
     width: 320px;
-    height: 580px;
-    border: 2px solid red;
+    border-radius: 10px;
     margin-left: -10px;
     margin-top: 20px;
     padding-top: 20px;
@@ -604,7 +599,6 @@ a.current button {
   .profile_paragraphe p {
     width: 320px;
     height: 540px;
-    border: 2px solid red;
     margin-left: -20px;
   }
   .accueil p {
@@ -625,14 +619,13 @@ a.current button {
     margin-left: 5px;
   }
   .experience p {
-    font-size: medium;
+    font-size: small;
   }
   .experience div{
-    margin-left: -30px;
+    width: 90%;
   }
   .formation div{
-    width: 600px;
-    margin-left: -30px;
+    width: 90%;
   }
   .formation p {
     font-size: medium;

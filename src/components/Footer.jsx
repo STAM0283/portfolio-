@@ -5,7 +5,7 @@ import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 import email from "../images/email.png";
 import phone from "../images/phone.png";
-import AMINE_STAMBOULI_CV_Developpeur_React_NodeJS from "../images/AMINE_STAMBOULI_CV_Developpeur_React_NodeJS.PDF";
+import AMINE_STAMBOULI_CV from "../images/AMINE_STAMBOULI_CV.PDF";
 import pdf from "../images/pdf.png";
 
 const Footer = () => {
@@ -56,7 +56,7 @@ const Footer = () => {
           <button>06 99 06 93 90</button>
           <br />
           <img src={pdf} style={{ width: "5%" }} alt="myProfile" />
-          <a href={AMINE_STAMBOULI_CV_Developpeur_React_NodeJS} target="_blank" rel="noopener noreferrer">
+          <a href={AMINE_STAMBOULI_CV} target="_blank" rel="noopener noreferrer">
             <button className="pdf">
 
               Télécharger le CV

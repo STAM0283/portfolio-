@@ -16,7 +16,7 @@ import react from "../images/react.svg";
 const Competences = () => {
     return (
         <div className="competences">
-            <div style={{ height: "70%", textAlign: "start" }} className = "languages">
+            <div style={{ textAlign: "start" }} className = "languages">
                 <h2>LANGUAGES ET PLATEFORMES</h2>
                 <h3>HTML5<label htmlFor="file"></label>
                 <img src = {html5} alt="icone html5" /></h3>
@@ -49,7 +49,7 @@ const Competences = () => {
 
 
                 </div>
-                <div style={{ textAlign: "start", height: "180px" }}>
+                <div style={{ textAlign: "start" }}>
                     <h2>LANGUES</h2>
                     <h3>FRANÇAIS : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>COURANT</span></h3>                                  
                     <h3>ANGLAIS : <span style={{ fontStyle: "oblique", color: "DodgerBlue" }}>INTERMÉDIAIRE</span></h3>
