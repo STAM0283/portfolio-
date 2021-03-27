@@ -585,6 +585,14 @@ a.current button {
   .formContact input {
     margin-bottom: 20px;
   }
+  .otherCompetences div{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .languages {
+    width: 60%;
+    margin-left: 20%;
+  }
   .contener {
     height: 780px;
   }
@@ -650,8 +658,9 @@ a.current button {
   .formation p {
     font-size: medium;
   }
-  .otherCompetences div {
-    width: 300px;
+  .otherCompetences div{
+    width: 60%;
+    margin-left: 20%;
   }
   .modalFooter button {
     height: 200px;
